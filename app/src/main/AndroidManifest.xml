@@ -19,6 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="com.tythis.tasktimer.AppProvider"
+            android:authorities="com.tythis.tasktimer.provider"
+            android:exported="false"/>
+
     </application>
 
 </manifest>
